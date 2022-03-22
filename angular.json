@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "tour-map": "apps/tour-map",
+    "tour-map-e2e": "apps/tour-map-e2e"
+  }
+}
