@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-ngrx-tour/admin": ["libs/admin/src/index.ts"],
+      "@nx-ngrx-tour/poi": ["libs/poi/src/index.ts"],
+      "@nx-ngrx-tour/visitor": ["libs/visitor/src/index.ts"],
+      "@packt/admin": ["libs/admin/src/index.ts"],
+      "@packt/poi": ["libs/poi/src/index.ts"],
+      "@packt/visitor": ["libs/visitor/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
